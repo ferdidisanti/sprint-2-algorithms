@@ -11,13 +11,13 @@ int main() {
     if (N >= 1) {
         // Bucle normal para positivos (cuenta hacia adelante)
         while (i <= N) {
-            cout << i << ", ";
+            cout << i << " ";
             i++;
         }
     } else {
         // Bucle para negativos y cero (cuenta hacia atrás)
         while (i >= N) {
-            cout << i << ", ";
+            cout << i << " ";
             i--; // Decrementamos i en lugar de sumar
         }
     }
